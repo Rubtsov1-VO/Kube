@@ -4,7 +4,7 @@ jobs:
     # You will need to modify the code below to reflect your github account/repo setup
     working_directory: github.com/Rubtsov1-VO/Kube
     docker:
-      - image: circleci/golang:1.8
+      - image: node:10-alpine
     branches:
       only:
         - master
